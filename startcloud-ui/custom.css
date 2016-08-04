@@ -386,8 +386,8 @@ label{
       fieldset[disabled] .btn-danger, fieldset[disabled] .btn-danger:hover,
       fieldset[disabled] .btn-danger:focus, fieldset[disabled] .btn-danger:active,
       fieldset[disabled] .btn-danger.active{
-         background-color: #FFFFFF;
-         
+         background-color: #FF3030;
+         color:#333;
          border-radius: 0;
       }
 
