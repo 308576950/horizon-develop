@@ -16,11 +16,18 @@ from django.utils.translation import ugettext_lazy as _
 
 import horizon
 
-
+'''
 class SystemPanels(horizon.PanelGroup):
     slug = "admin"
     name = _("System")
     panels = ('overview', 'metering', 'hypervisors', 'aggregates',
+              'instances', 'volumes', 'flavors', 'images',
+              'networks', 'defaults', 'metadata_defs', 'info')
+'''
+class SystemPanels(horizon.PanelGroup):
+    slug = "admin"
+    name = _("System")
+    panels = ('overview', 'hypervisors', 'aggregates',
               'instances', 'volumes', 'flavors', 'images',
               'networks', 'defaults', 'metadata_defs', 'info')
 
